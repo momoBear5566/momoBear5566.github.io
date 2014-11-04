@@ -1,0 +1,717 @@
+﻿
+
+#example .ui.type.items > .item {
+  min-height: 255px;
+}
+
+#example .ui.type.items > .item > .image {
+  padding: 1em;
+  height: 165px;
+  vertical-align: middle;
+}
+
+/* some demo formatting */
+.ui.menu p:only-child {
+  margin: 0px;
+}
+.ui.menu a {
+  cursor: pointer;
+}
+
+
+body.progress .ui.progress .bar {
+  -webkit-animation: finish 10s ease-in-out infinite;
+  -moz-animation: finish 10s ease-in-out infinite;
+  -ms-animation: finish 10s ease-in-out infinite;
+  animation: finish 10s ease-in-out infinite;
+}
+
+@-webkit-keyframes finish {
+  0% {
+    width: 0%;
+  }
+  40% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes finish {
+  0% {
+    width: 0%;
+  }
+  40% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes finish {
+  0% {
+    width: 0%;
+  }
+  40% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+#example.feed .example .segment {
+  max-width: 800px;
+}
+
+#example .fixed .launch {
+  display: none;
+}
+#example .designer .icon {
+  font-family: 'Basic Icons';
+}
+
+#example .fixed.column .sticky-wrapper {
+  height: 0px !important;
+}
+
+#example .fixed.column .fixed,
+#example .fixed.segment .fixed {
+  position: fixed;
+  top: 65px;
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  -ms-perspective: 2000px;
+  perspective: 2000px;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+
+@media only screen and (max-width : 1725px) {
+  #example .container {
+    width: auto;
+    margin-right: 100px;
+    margin-left: 325px;
+  }
+  #example.index .container {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+  #example .sticky-wrapper.stuck .peek {
+    margin-left: 0px;
+    left: 95px;
+  }
+  #example.left.pushed .sticky-wrapper .peek {
+    padding-left: 275px;
+    margin-left: -275px;
+  }
+  #example.left.pushed .sticky-wrapper.stuck .peek {
+    margin-left: 0px;
+    padding-left: 275px;
+  }
+}
+@media only screen and (max-width : 1500px) {
+  #example.index .icon.header .icon {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width : 1050px) {
+  #example .fixed .section,
+  #example .fixed .title b {
+    display: none;
+  }
+  #example .stripe .header .code.icon {
+    display: none;
+  }
+  #example .fixed .container {
+    width: auto;
+    margin: 0px auto;
+  }
+  #example .attached.launch.button {
+    display: none;
+  }
+  #example .fixed .launch {
+    display: inline-block;
+  }
+  #example .sticky-wrapper {
+    display: none;
+  }
+  #example .container {
+    width: auto;
+    margin: 0% 30px 0px;
+  }
+}
+
+
+
+
+
+
+
+.footerAD_Font
+{
+    color: #5978BB;
+margin-top: 10px;
+    font-size:15px;
+    font-weight:700;
+    text-shadow:2px 2px #FFF;
+    text-align:center;
+}
+
+
+
+
+
+
+@keyframes masthead {
+ 0% {
+    background-position: 0% 0%;
+ }
+ 50% {
+    background-position: -50% -100%;
+ }
+ 100% {
+    background-position: -100% -200%;
+ }
+
+}
+
+@-moz-keyframes masthead {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 50% {
+   background-position: -50% -100%;
+ }
+ 100% {
+   background-position: -100% -200%;
+ }
+
+}
+
+@-webkit-keyframes masthead {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 50% {
+   background-position: -50% -100%;
+ }
+ 100% {
+   background-position: -100% -200%;
+ }
+
+}
+
+@-ms-keyframes masthead {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 50% {
+   background-position: -50% -100%;
+ }
+ 100% {
+   background-position: -100% -200%;
+ }
+
+}
+
+@-o-keyframes masthead {
+ 0% {
+   background-position: 0% 0%;
+ }
+ 50% {
+   background-position: -50% -100%;
+ }
+ 100% {
+   background-position: -100% -200%;
+ }
+
+}
+
+
+
+
+
+
+/*主要跟長方形式區塊 列表有關*/
+.veticalInfo
+{
+    min-height:260px;
+    border:solid 1px #CCC;
+}
+
+
+    .veticalInfo .title, .veticalInfo .type, .veticalInfo .function
+    {
+        padding:4px;
+    }
+
+    .veticalInfo .title
+    {
+                
+        font-size:14px;
+        color:#646060;
+        font-weight:700;
+    }
+
+
+/*主要跟廣告block有關*/
+.opacity75:hover
+{
+    opacity:0.75;
+}
+
+.advertisementBlock_Big
+{
+    height:300px;
+}
+
+
+.advertisementBlock_Small
+{
+     height:140px;
+     margin: 10px 0px 0px 0px;
+}
+
+.advertisementBlock_Big , .advertisementBlock_Small
+    {
+        border:solid 1px #CCC;
+        cursor:pointer;
+    }
+
+
+    .advertisementBlock_Big:hover , .advertisementBlock_Small:hover
+    {
+        opacity:0.75;
+    }
+
+
+  .adver_Inner80
+    {
+        width:100%;
+        height:80%;
+    }
+
+    .adver_Inner20
+    {
+        padding:5px;
+        width:100%;
+        height:20%;
+       background: rgba(32, 26, 29, 0.8);
+color: #BEF7C7;
+        font-size:14px;
+        font-weight:700;
+    }
+
+.adver_extension
+{
+    float:right;
+    color: #000;
+
+    background-color: #E6DE29;
+
+
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+
+}
+
+
+
+
+
+    /*跟function Tab有關**/
+
+.tabColor
+{
+    color:#FF9999;
+}
+
+
+.nav-tabs>li {
+
+    min-width:115px;
+}
+
+.marginTop5{margin-top:5px;}
+.marginTop10{margin-top:10px;}
+.marginTop15{margin-top:15px;}
+.marginTop20{margin-top:20px;}
+
+
+.margin5{margin:5px;}
+.margin10{margin:10px;}
+.margin20{margin:20px;}
+
+.autoCenter
+{
+    margin: 0 auto;
+}
+
+.font12{font-size:12px !important;}
+.font14{font-size:14px !important;}
+.font16{font-size:16px !important;}
+.font18{font-size:18px !important;}
+.font20{font-size:20px !important;}
+.font22{font-size:22px !important;}
+.font24{font-size:24px !important;}
+.font26{font-size:26px !important;}
+.font28{font-size:28px !important;}
+.font30{font-size:30px !important;}
+
+.chinesFont
+{
+    font-family: CustomFont, "微軟正黑體", "蘋果儷黑體", "新細明體", Arial;
+}
+
+.HomePageTitle
+{
+    font-size:32px;
+    color:white;
+    font-weight:700;
+    text-shadow: 1px 2px #646060
+}
+
+.HomePageTitleChinese
+{
+    font-family: CustomFont, "微軟正黑體", "蘋果儷黑體", "新細明體", Arial;
+    font-size:24px;
+    color:#F9FF71;
+    font-weight:700;
+}
+
+
+
+.homeBlockMenu
+{
+    color:#FFF;
+    max-width:550px;
+    background: rgba(111, 111, 111, 0.3);
+    margin: auto;
+    padding: 40px;
+    border-radius: 40px;
+    text-align: center;
+   
+    border:solid 1px #868585;
+    border-radius:10px 10px 10px;
+}
+
+
+header #clear::before
+{
+    width:500%;
+    height:500%;
+
+    background: #1C2E44   url(http://resource.cloudi32.com/Images/2014/octicons-bg777.png) center repeat;
+     top: 0px;
+  left: 0px;
+  content: '';
+    
+    position: absolute;
+  
+     z-index: -1;
+   
+  -webkit-animation-name: masthead;
+  -moz-animation-name: masthead;
+  -o-animation-name: masthead;
+  animation-name: masthead;
+
+
+
+  -webkit-animation-duration: 200s;
+  -moz-animation-duration: 200s;
+  -ms-animation-duration: 200s;
+  -o-animation-duration: 200s;
+  animation-duration: 200s;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+}
+
+
+header
+{
+    min-height:450px;
+    width: 100%;
+    margin: 0;
+   
+
+
+
+    position:relative;
+    overflow:hidden;
+    
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 4.375em;
+    padding-bottom: 0.875em;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+	.mediaTest {
+		width: 666px;
+        color:red;
+	}	
+}
+
+
+
+@media screen and (min-width: 1001px){
+	.mediaTest {
+		width: 1000px;
+        color:green;
+	}	
+}
+
+@media screen and (max-width: 480px) {
+	.mediaTest {
+		width: 333px;
+        color:orange;
+	}	
+}
+
+
+
+
+
+
+
+
+.main-container
+{
+
+
+    background: #F8F8F8 url(http://resource.cloudi32.com/Images/2014/octicons-bg456654654.png);
+
+    width: 100%;
+    margin: 0 auto; 
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: left center;
+    padding-top: 1.375em;
+    padding-bottom: 3.875em;
+}
+
+
+
+
+body
+{
+    background-color: #fff;
+    /*border-top: solid 10px #000;*/
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer
+{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background-color: #414246;
+    background-image: -moz-linear-gradient(top, #54565a, #242427);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#54565a), to(#242427));
+    background-image: -webkit-linear-gradient(top, #54565a, #242427);
+    background-image: -o-linear-gradient(top, #54565a, #242427);
+    background-image: linear-gradient(to bottom, #54565a, #242427);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54565a', endColorstr='#ff242427', GradientType=0);
+    box-shadow: 0 1px 1px #4b4b4b;
+    color:#FFF;
+}
+
+
+
+
+
+
+
+.glyphicon
+{
+    margin-right:5px;
+}
+
+.title-font
+{
+    font-weight:900;
+    color:#BBEBDD;
+}
+
+.bold
+{
+    font-weight:bold;
+}
+
+
+
+.img-wraper
+{
+    padding:5px;
+    text-align:center;
+}
+.demo-img
+{
+    height:160px;
+    margin-bottom:10px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+/** class*/
+
+.container
+{
+    max-width:1024px;
+      margin: 0;
+}
+
+
+
+.maxSize
+{
+     max-width:1024px;
+}
+
+.auto
+{
+    padding-left:7px;
+     margin: 0 auto;
+}
+
+.menu
+{
+    font-size:20px;
+}
+
+.row
+{
+    margin: 0 auto;
+    max-width:1024px;
+}
+
+.back-line
+{
+    border-bottom: dashed 1px #CCC;
+    color: #1B1A1A;
+text-shadow: 2px 2px #FFF;
+    
+/*background-attachment: scroll;
+background-repeat: repeat-x;
+background-position: left center;
+background-image: url('../images/divider1.png');*/
+}
+
+.center
+{
+     text-align:center;
+}
+
+
+.about ul li
+{
+    font-size:16px;
+    margin-bottom:3px;
+}
+
+
+
+a
+{
+    cursor:pointer;
+    color:#6a6a6a;
+}
+
+    a:hover
+    {   
+        color:#6a6a6a;
+        opacity: 0.8;
+    }
+
+img
+{
+    cursor:pointer;
+}
+
+
+img:hover
+{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+.w10{width:10%}
+.w20{width:20%}
+.w30{width:30%}
+.w40{width:40%}
+.w50{width:50%}
+.w60{width:60%}
+.w70{width:70%}
+.w80{width:80%}
+.w90{width:90%}
+.w100{width:100%}
+
+.w15{width:15%}
+.w25{width:25%}
+.w35{width:35%}
+.w45{width:45%}
+.w55{width:55%}
+.w65{width:65%}
+.w75{width:75%}
+.w85{width:85%}
+.w95{width:95%;border-radius: 7%;}
+
+
+.red{color:red !important;}
+.blue{color:blue !important;}
+
+.blue2{color:#85B2F5 !important;}
+
+.green{color:green !important;}
+.black{color:black !important;}
+.white{color:white !important;}

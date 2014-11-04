@@ -1,0 +1,194 @@
+﻿
+.textRight
+{
+    text-align:right;
+}
+
+
+.textLeft
+{
+    text-align:left;
+}
+
+
+.textCenter
+{
+    text-align:center;
+}
+
+
+
+.starDescription .leftSide .glyphicon-star,
+.starDescription .rightSide .glyphicon-star
+{
+    margin:0 3px 0 3px;
+}
+
+.starDescription
+{
+    color:#666;
+}
+
+.starDescription .leftSide
+{
+     float:left;
+     width:50%;
+}
+
+.starDescription .rightSide
+{
+     float:left;
+     width:50%;
+}
+
+
+
+
+#womanTalk .manTalkPanel ,
+#manTalk .manTalkPanel
+{
+    border: solid 1px #F4F4F4;
+    border-radius:5px;
+    position:relative;
+    padding:5px 20px 10px 20px;
+}
+
+
+#manTalk:hover .manTalkPanel .hiddenLineUp
+{
+    margin-top:0%;
+    opacity:1;
+}
+
+
+
+#manTalk:hover .manTalkPanel .hiddenLine
+{
+    margin-bottom:0%;
+    opacity:1;
+}
+
+
+  #manTalk .manTalkPanel .hiddenLine ,
+  #manTalk .manTalkPanel .hiddenLineUp
+    {
+        position:absolute;    
+        transition:ease-in .3s;
+        opacity:0;
+        background:#FFEBD7;
+        height:3px;
+        width:100%;
+    }
+
+#manTalk .manTalkPanel .hiddenLineUp
+{
+        top:0px;
+        left:0px;
+        margin-top:-20%;
+
+}
+
+
+    #manTalk .manTalkPanel .hiddenLine
+    {       
+        bottom:0px;
+        left:0px; 
+         margin-bottom:-20%;
+
+        
+    }
+
+
+
+#manTalk .starNumber
+{
+    color:#ff6a00;
+    font-size:15px;
+}
+
+
+#womanTalk .bigText,
+#manTalk .bigText
+{
+    /*font-weight: 700;*/
+    font-size: 22px;
+color: #39A56C;
+    margin-bottom:7px;
+
+
+    text-shadow:1px 1px 1px #FFF  ;
+}
+
+img.people
+{
+    width:80px;
+}
+
+#manTalk img
+{    
+    margin-left: -10px;
+}
+
+
+
+
+
+/*上方大頭照特效**/
+.headerMe .imgWrapper
+{
+    position:relative;
+    display:inline-block;
+}
+
+
+.imgWrapper .scalePanel
+{
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+
+    line-height:150px;
+    font-size:15px;
+    position:absolute;
+    border-radius:50%;
+    color:#FFF;
+    transform:scale(0);
+    background: rgba(50, 120, 179, 0.7);
+
+    transition:ease-in .3s;
+
+}
+
+.headerMe .imgWrapper:hover .scalePanel
+{
+    transform:scale(1.0);
+}
+
+
+
+/*back-End 英文小特效**/
+#headerheader:hover .captionText .hiddenLine
+{
+    opacity:1;
+    transform:translateX(0px)
+}
+
+.captionText .hiddenLine
+{    
+    transform:translateX(300px);    
+    opacity:0;
+    height:2px;
+    width:100%;
+    background:#E8E8E8;
+    position:absolute;
+    transition:ease-in .5s;
+
+}
+
+
+.CaptionIcon
+{
+    color: #A3ADA0;
+    font-size: 18px;
+}
