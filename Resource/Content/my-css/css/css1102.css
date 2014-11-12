@@ -1,0 +1,456 @@
+﻿
+#Projects
+{
+    background: #F9F9F9;
+    padding-top: 5px;
+}
+
+#Projects span.badge
+{
+    position:relative;
+    z-index:2;
+}
+
+.womanTextPanel .IconWrapper
+{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #B5D7EC;
+    margin: 2px 1px;
+    text-align: center;
+    color: #FFF;
+}
+
+
+
+.womanTextPanel
+{
+    min-height:80px;
+    overflow:hidden;
+    position:relative;
+}
+
+.womanTextPanel .fixRight
+{
+    position: absolute;
+    right: 0px;
+    margin-right: -20%;
+    transition:1.0s ease-out;
+}
+
+    .womanTextPanel .IconWrapper
+    {
+        opacity:0;
+        transition-delay:.3s;
+        transition:.5s linear;
+    }
+
+#Projects:hover .womanTextPanel .IconWrapper
+{
+    opacity:1;
+    transform:rotate(720deg);
+}
+
+
+#Projects:hover .womanTextPanel .fixRight
+{
+    margin-right:5%;
+}
+
+/* 2014-11-11 ↑**/
+
+
+
+
+/*.skillIconWrapper.bg1
+{
+    background:#A9DA7C;
+}
+
+.skillIconWrapper.bg2
+{
+    background:#83D7A4;
+}
+
+.skillIconWrapper.bg3
+{
+    background:#7D9DAB;
+}*/
+
+
+.skillIconWrapper
+{
+    display: inline-block;
+width: 28px;
+height: 28px;
+line-height: 28px;
+font-size: 14px;
+border-radius: 50%;
+background: #C3EAA5;
+margin: 2px 3px;
+text-align:center;
+color: #FFF;
+
+    /*display:inline-block;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    font-size:18px;
+    border-radius:50%;
+    background:#CCC;
+    margin:2px 3px;
+    color:#FFF;*/
+}
+
+
+
+
+
+
+.skillWrapper:hover .verticalineWrapper
+{
+    margin-right:0px;
+}
+
+.verticalineWrapper
+{
+    transition:linear .5s;
+    transition-delay: .3s;
+    margin-right:-100px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    height: 90%;
+    text-align:center;
+}
+
+.verticalineWrapper .verticaline
+{
+    height: 70%;
+border-right: solid 1px #ccc;
+margin: 3px 20px 3px 0;
+}
+
+
+
+
+
+
+
+.skillWrapper .fixTitle
+{
+    position: absolute;
+    left: 25%;
+    transition:.6s ease-out;
+    transition-delay:.2s;
+}
+
+.skillWrapper:hover .fixTitle
+{
+    color:#e52e2e;
+    transform:scale(0);
+}
+
+
+.skillWrapper:hover .starRow
+{
+    opacity:1;
+    margin-left:20px;
+}
+
+.starRow.row1{  margin-left:-5%;}
+.starRow.row2{  margin-left:-10%;}
+.starRow.row3{  margin-left:-15%;}
+.starRow.row4{  margin-left:-20%;}
+.starRow.row5{  margin-left:-25%;}
+
+.skillWrapper:hover .glyphicon
+{
+    transform:rotate(-0deg);
+}
+
+.starRow .glyphicon-star-empty
+{
+    color:#F7E8D0;
+}
+
+.starRow .glyphicon-star
+{
+    color:#FCC683;
+}
+
+.starRow .glyphicon
+{
+    font-size: 15px;
+    transition:linear .65s;
+    transition-delay: .15s;
+    transform:rotate(-360deg);
+}
+
+
+.skillWrapper:hover .delayShowText
+{
+    opacity:1;
+}
+
+.delayShowText
+{
+    top:0px;
+    opacity:0;
+    display: inline-block;
+    color:#666;
+
+    margin-left:8px;
+    transition:.3s ease-in;
+    transition-delay:.8s;
+}
+
+
+.starRow
+{
+    
+    transition:linear .7s;
+     opacity:0;
+
+    /*position:absolute;*/
+    left:0px;
+
+    width:90%;
+  
+    margin-bottom:1px;
+    padding:1px;
+}
+
+/* 2014-11-10**/
+
+
+
+
+
+
+
+
+
+
+.bgStyle001
+{
+    z-index:-1;
+    padding: 20px 0;
+    background:url('/Content/user-images/bg003.png') repeat;
+    border-bottom: dashed 1px #E8E8E8;
+}
+
+
+
+.textRight
+{
+    text-align:right;
+}
+
+
+.textLeft
+{
+    text-align:left;
+}
+
+
+.textCenter
+{
+    text-align:center;
+}
+
+
+
+.starDescription .leftSide .glyphicon-star,
+.starDescription .rightSide .glyphicon-star
+{
+    margin:0 3px 0 3px;
+}
+
+.starDescription
+{
+    color:#666;
+}
+
+.starDescription .leftSide
+{
+     float:left;
+     width:50%;
+}
+
+.starDescription .rightSide
+{
+     float:left;
+     width:50%;
+}
+
+
+
+
+#womanTalk .manTalkPanel ,
+#manTalk .manTalkPanel
+{
+    border: solid 1px #F4F4F4;
+    border-radius:5px;
+    position:relative;
+    padding:5px 20px 10px 20px;
+}
+
+
+#manTalk:hover .manTalkPanel .hiddenLineUp
+{
+    margin-top:0%;
+    opacity:1;
+}
+
+
+
+#manTalk:hover .manTalkPanel .hiddenLine
+{
+    margin-bottom:0%;
+    opacity:1;
+}
+
+
+  #manTalk .manTalkPanel .hiddenLine ,
+  #manTalk .manTalkPanel .hiddenLineUp
+    {
+        position:absolute;    
+        transition:ease-in .3s;
+        opacity:0;
+        background:#FFEBD7;
+        height:3px;
+        width:100%;
+    }
+
+#manTalk .manTalkPanel .hiddenLineUp
+{
+        top:0px;
+        left:0px;
+        margin-top:-20%;
+
+}
+
+
+    #manTalk .manTalkPanel .hiddenLine
+    {       
+        bottom:0px;
+        left:0px; 
+         margin-bottom:-20%;
+
+        
+    }
+
+
+
+#manTalk .starNumber
+{
+    color:#ff6a00;
+    font-size:15px;
+}
+
+.starRowWrapper .bigText ,
+#womanTalk .bigText,
+#manTalk .bigText
+{
+    /*font-weight: 700;*/
+    font-size: 22px;
+color: #39A56C;
+    margin-bottom:7px;
+
+
+    text-shadow:1px 1px 1px #FFF  ;
+}
+
+img.people
+{
+    width:80px;
+}
+
+#manTalk img
+{    
+    margin-left: -10px;
+}
+
+
+
+
+
+/*上方大頭照特效**/
+#womanTalk .imgWrapper ,
+.skillWrapper .imgWrapper ,
+.headerMe .imgWrapper
+{
+    position:relative;
+    display:inline-block;
+}
+
+.imgWrapper .scalePanel.lg
+{ 
+    line-height:150px;
+    font-size:15px;
+}
+
+.imgWrapper .scalePanel.md
+{
+    line-height:80px;
+    font-size:13px;
+}
+
+.imgWrapper .scalePanel
+{
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+
+   text-align:center;
+    position:absolute;
+    border-radius:50%;
+    color:#FFF;
+    transform:scale(0);
+    background: rgba(50, 120, 179, 0.7);
+
+    transition:ease-in .3s;
+
+}
+
+
+#womanTalk  .imgWrapper:hover .scalePanel ,
+.skillWrapper .imgWrapper:hover .scalePanel ,
+.headerMe .imgWrapper:hover .scalePanel
+{
+    transform:scale(1.0);
+}
+
+
+
+/*back-End 英文小特效**/
+#headerheader:hover .captionText .hiddenLine
+{
+    opacity:1;
+    transform:translateX(0px)
+}
+
+.captionText .hiddenLine
+{    
+    transform:translateX(300px);    
+    opacity:0;
+    height:2px;
+    width:100%;
+    background:#E8E8E8;
+    position:absolute;
+    transition:ease-in .5s;
+
+}
+
+
+.CaptionIcon
+{
+    color: #A3ADA0;
+    font-size: 18px;
+}

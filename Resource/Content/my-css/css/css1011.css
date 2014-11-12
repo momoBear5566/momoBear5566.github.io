@@ -1,0 +1,151 @@
+﻿
+
+
+
+#AbountMe
+{
+    overflow:hidden;
+    position:relative;
+}
+
+#AbountMe:hover .animatePanel
+{
+    margin-top:0%;
+}
+
+.animatePanel
+{
+
+    transition:ease-out .5s;
+    
+    /*margin-top:-100%;*/
+}
+
+
+
+
+
+
+
+.AboutPanel
+{
+    color:#666;
+}
+
+
+    .AboutPanel .Name:hover, .AboutPanel .Position:hover
+    {
+        color:#469a7a;
+    }
+
+
+
+.AboutPanel .Name
+{
+   font-size:18px;
+   font-weight:700;
+   color:#3B4E75;
+}
+.AboutPanel .Position
+{
+    font-size:15px;
+    border-bottom:solid 1px #E8E8E8;
+    padding-bottom:3px;
+    margin-bottom:5px;
+
+
+}
+
+.AboutPanel .descrip
+{
+    position:relative;
+    padding:10px;
+    border-radius:10px;
+    background:#F7F7F7;
+    font-size:11px;
+}
+
+
+.fillPanel
+{
+    position:relative;
+    padding:3px;
+}
+
+.fillPanel .fillBG
+{
+    z-index:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+
+    border-radius:5px;
+
+    
+      background: rgba(255,255,255,0.1);
+    /* Old browsers */
+    background: linear-gradient(to right, rgba(255,255,255,0.1) 50%, #E8E8E8 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+    transition:all 1.0s ease;
+
+}
+
+   
+
+    
+/*.descrip{
+    width:100px;
+    padding: 11px 16px;
+    text-align:center;
+    float:left;
+  
+}*/
+
+#AbountMe:hover .fillBG {
+    background-position:right bottom;
+}
+
+
+
+
+
+.descrip .myName
+{
+    color:#4BA33A;
+}
+
+
+
+
+
+#AbountMe .col-md-2
+{
+    text-align:center;
+    color: #7E7E7E;
+}
+
+
+
+.avator-sm
+{
+        
+    padding: 1px;
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+
+    .avator-sm:hover
+    {
+        transition:.2s linear;
+        -webkit-transition:.2s linear;
+
+        transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+
+
+    }

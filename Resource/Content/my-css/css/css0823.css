@@ -1,0 +1,1144 @@
+﻿
+   
+
+/* 調整bootstrap css**/
+
+.navbar{
+    min-height:25px;
+}
+
+.navbar-nav > li > a
+{
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+}
+
+/* 調整bootstrap css**/
+
+
+
+.float66
+{
+    float:left;
+    width:66%;
+
+   
+}
+
+.float33
+{
+    float:left;
+    width:33%;
+}
+
+
+.eachSection
+{
+    margin-top: 15px;
+    max-width: 1024px;
+}
+
+.fixedNavigation .collapse
+{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+
+.fixedNavigation
+{
+    position: fixed; 
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+    z-index: 9999;
+    background: rgba(187, 187, 187, 0.8)
+
+
+}
+
+
+
+
+.historyEach:hover .rightPannel .title
+{
+    color:#E6697D;
+}
+
+.historyEach .hiddenImage
+{
+    margin-top:5px;
+    opacity:0;
+    height:0px;
+    transition:.5s linear;
+    -webkit-transition:.5s linear;
+}
+
+
+
+.historyEach:hover .hiddenImage
+{   
+    opacity:1;
+    height:70px;
+}
+
+.historyEach .hiddenImage img
+{
+    height:60px;
+}
+
+
+
+.rightPannel .description
+{
+    font-size:12px;
+    color:#AFAFAF;
+}
+.rightPannel .title
+{
+    font-size:15px;
+    font-weight:700;
+    text-shadow: 1px 1px 1px #FFF;
+    color:#7C7C7C;
+}
+.historyEach .leftPannel .badge
+{
+    background:#678BB9 ;
+}
+.historyEach .leftPannel
+{
+    float:left;
+    width:20%;
+}
+
+.historyEach .rightPannel
+{
+    float:left;
+    width:80%;
+}
+
+
+.historyEach:before
+{
+    content: '';
+    background: #CCC;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 1px;
+    z-index: 0;
+    height: 100%;
+}
+
+.historyEach
+{
+    position:relative;
+    padding: 10px;
+}
+
+
+.categoryTitle
+{
+    font-size:15px;
+    font-weight:700;
+    color: #506FBE;
+    margin-top:5px;
+}
+
+
+.skillWrapper
+{
+    padding:5px;
+    /*border:solid 1px #E8E8E8;*/
+    border-radius:5px;
+}
+
+
+ul.skillTable li:hover
+{
+    background:#F8F8F8;
+}
+ul.skillTable li
+{
+  padding: 2px 3px 1px 0;
+  margin-bottom: 2px;
+  font-size: 15px;
+  border-bottom: solid #F0F0F0 1px;
+
+}
+
+ul.skillTable
+{
+    list-style:square;
+}
+
+
+
+/*.glyphicon
+{
+    margin-right:5px;
+}*/
+
+
+#manTalk
+{
+    position:relative;
+}
+
+#manTalk .glyphicon ,
+.starWrapper .glyphicon
+{
+    font-size:15px;
+}
+
+
+#manTalk .glyphicon-star ,
+.starWrapper .glyphicon-star
+{
+    color:#FCC683;
+}
+
+
+#manTalk .glyphicon-star-empty ,
+.starWrapper .glyphicon-star-empty
+{
+    color:#F7E8D0;
+}
+
+
+.starWrapper
+{
+    letter-spacing: -1px;
+    display:inline-block;
+    float:right;
+}
+
+
+
+
+
+
+/* 20140914 增加**/
+
+
+
+.rightBlock > .big
+{
+    font-size:18px;
+    font-weight:700;    
+    padding-bottom:3px;
+    margin-bottom:5px;
+    border-bottom:solid 1px #E8E8E8;
+}
+
+.rightBlock > .detail
+{
+     color:#6c6c6c;
+     font-size:13px;
+}
+
+
+.skillPannel > .col-sm-4
+{
+    margin-bottom:15px;
+}
+
+
+.skillPannel
+{
+    max-width:1024px;
+    margin-top:25px;
+    padding-bottom:10px;
+    border-bottom:solid #E8E8E8 1px;
+}
+
+
+.iconWrapper > span
+{
+   line-height: 73px;
+margin-left: 4px;
+}
+
+.iconWrapper
+{
+    border-radius: 50%;
+/* padding: 5px; */
+    border: solid 1px #8DB7DD;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+}
+
+
+.leftBlock
+{
+    color: #6396C5;
+    float:left;
+    width:30%;
+    font-size:36px;        
+}
+
+
+.rightBlock
+{
+    float:left;
+    width:70%;
+}
+
+
+.captionText
+{
+    position:relative;
+    margin-top:10px;
+    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+
+    font-size: 20px;
+    color: #E7F9FF;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.chineseName:hover
+{
+    -webkit-transition:.2s linear;
+    transition:.2s linear;
+    letter-spacing:2px;
+    color:#f0e987;
+}
+.captionText:hover, .englishName:hover
+{
+    color:#f0e987;
+}
+
+.chineseName
+{
+    /*border-top:solid 1px #E8E8E8;*/
+    font-weight:700;
+    font-size:22px;
+    color:#FFF;
+    line-height: 24px;
+}
+
+.englishName
+{
+    /*border-bottom:solid 1px #E8E8E8;*/
+     font-size:16px;
+     color:#e7e7e7;
+}
+
+
+.avater
+{
+    border: 3px double #394E6F;
+    padding: 1px;
+    border-radius:50%;
+    width:150px;
+    /*margin-top: 30px;*/
+}
+
+
+
+
+
+/**0906新增*/
+/**0906新增*/
+/**0906新增*/
+/**0906新增*/
+/**0906新增*/
+/**0906新增*/
+/**0906新增*/
+/**0906新增*/
+
+
+
+.totalTimeTip
+{
+    color:#FDFBCD;
+    text-align:center;
+    line-height: 10px;
+}
+
+.totalTimeWrapper
+{
+    background:#555555;
+    padding: 0px 10px 5px 10px;
+    color: #E8E8E8;
+    display: inline-block;
+    margin: 5px;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+}
+
+
+.totalTimeWrapper span
+{
+    letter-spacing:1px;
+    color: #FFF;
+    font-weight: 700;
+    text-shadow: 0px 1px #747474;
+    font-size: 24px;
+}
+
+.font1 > span
+{
+    font-family: 'Roboto', sans-serif;    
+}
+
+
+.font2 > span
+{
+}
+
+
+.font3 > span
+{    
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.font4 > span
+{  
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.font5 > span
+{    
+    font-family: 'Lobster', cursive;
+}
+
+
+.font6 > span
+{        
+    font-family: 'Inconsolata' ;
+}
+
+
+.font7 > span
+{        
+    font-family: 'Armata', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**------- font 字型 */
+
+.tipText
+{
+    font-size:10px;
+    color:#767676;
+}
+
+.tipNumber
+{
+    font-size: 18px;
+    color: #61B950;
+    font-weight: 700;
+}
+
+.boxInnerLeft
+{
+    width:40%;
+    float:left;
+}
+
+
+.boxInnerRight
+{
+    width:60%;
+    float:left;
+}
+
+
+.CountNumberBox_IconWrapper
+{
+    padding-left:3px;
+    text-align:left;
+}
+
+
+.circleIconWrapper
+{
+    margin-top:5px;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 50%;
+    border: solid 1px #37B364;
+    color: #FFF;
+    background: #37B364;
+}
+
+
+.CountNumberWrapper
+{
+    /*text-align:center;*/
+}
+
+.CountNumberWrapper > .col-md-6
+{
+    padding: 1px 5px;
+}
+
+
+.CountNumberBox
+{
+    width:100%;
+    border:solid 1px #E7E7E7;
+    border-radius:5px;
+    padding:5px 3px;
+}
+
+.InfoNumber
+{
+    text-align:right;
+    margin-right:5px;
+}
+
+
+
+
+.teacherInfoRowEach
+{
+    padding:8px 0px;
+    border-bottom:solid 1px #E7E7E7;
+}
+
+.arrow-left-wrapper {
+position: absolute;
+top: 10px;
+left: -22px;
+}
+
+.arrow-left ,.arrow-left-border  {
+border-color: transparent transparent;
+border-style: solid;
+border-width: 11px;
+border-right:solid 11px #FFF;
+position: absolute;
+top: 3px;
+z-index: 1002;
+}
+
+
+.arrow-left-border {
+border-color: transparent transparent;
+border-right: solid 12px #E7E7E7;
+border-width: 12px;
+top: 2px;
+z-index: 1001;
+left: -3px;
+
+}
+
+
+.infoBoxWrapper
+{
+    background:#FDFDFD;
+    width:75%;
+    border-radius:5px;
+    border:solid 1px #E7E7E7;
+   
+    display: inline-block;
+    overflow: hidden;
+    padding-bottom: 15px;
+
+
+}
+
+
+
+
+.teacherTitleRowWrapper
+{
+    width:100%;
+    font-size:17px;
+    font-weight:700;
+    color:#636363;
+    border-radius:5px;
+
+    text-align:center;
+    
+
+    background-color: #D6D6D6;
+    background-image: -moz-linear-gradient(top, #D6D6D6, #D1D1D1);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D6D6D6), to(#D1D1D1));
+    background-image: -webkit-linear-gradient(top, #D6D6D6, #D1D1D1);
+    background-image: -o-linear-gradient(top, #D6D6D6, #D1D1D1);
+    background-image: linear-gradient(to bottom, #D6D6D6, #D1D1D1);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54565a', endColorstr='#ff242427', GradientType=0);
+   
+    position:relative;    
+    padding:4px;
+
+
+    border:solid 1px #FFF;
+}
+
+
+.titleBorderTriangle
+{
+    border-color:transparent transparent;
+    border-bottom:11px #FFF solid;
+    position:absolute;
+    left:50%;
+    bottom:-1px;
+    border-width:11px;
+    border-style:solid;
+}
+
+
+.timeLingMask
+{
+
+    rotation:180deg;
+    text-align:left;
+
+    position: absolute;
+    right:0px;
+    float: right;
+
+
+    width: 100%;
+    height: 20px;
+    background: #FFF;
+    z-index: 1050;
+    position:absolute;
+    width:100%;
+
+    -webkit-animation:slowHide 4s forwards;
+    animation:slowHide 4s forwards;
+
+}
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes slowHide {
+    0% { width: 100%; } 
+    100% { width: 0%; }
+}
+@-moz-keyframes slowHide {
+   0% { width: 100%; } 
+  100% { width: 0%; }
+}
+@keyframes slowHide {
+     0% { width: 100%; } 
+  100% { width: 0%; }
+}
+
+
+
+
+.timeLingRow
+{
+   
+}
+
+
+.absoluteTimeLineBorder
+{
+    border-bottom: solid 3px #9ECAE7; 
+    position: absolute; 
+    top: 8px; 
+    height: 3px; 
+    width: 100%;
+}
+
+
+@-webkit-keyframes hideShow {
+    0% { width: 0%; } 
+    100% { width: 100%; }
+}
+@-moz-keyframes hideShow {
+   0% { width: 0%; } 
+  100% { width: 100%; }
+}
+@keyframes hideShow {
+     0% { width: 0%; } 
+  100% { width: 100%; }
+}
+
+
+
+
+
+.badgeColor1
+{
+    background:#3d84a3;
+}
+
+
+
+.conversationBox
+{    
+
+     -webkit-animation-duration:1.0s;
+    animation-duration:1.0s;
+
+    -webkit-animation-name: delayShow;    
+    animation-name: delayShow;    
+
+
+    -webkit-animation-timing-function:ease;
+    animation-timing-function:ease;
+
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    opacity:0;
+
+    margin-top:18px;
+    font-size: 13px;
+    color: #3D3D3D;
+    line-height: 24px;
+    border: 1px solid #E2E2E2;
+    padding: 12px 7px;
+    border-radius: 6px;
+    width: 95%;
+    position: relative;
+
+}
+
+
+.arrow-down {
+position: absolute;
+top: -25px;
+left: 30px;
+}
+
+.arrow , .arrow-down .arrow-border {
+border-color: transparent transparent;
+border-style: solid;
+border-width: 11px;
+border-bottom:solid 11px #FFF;
+position: absolute;
+top: 3px;
+z-index: 1002;
+}
+
+
+.arrow-down .arrow-border {
+
+    border-bottom: solid 12px #E7E7E7;
+    top: 1px;
+    z-index: 1001;
+    left: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+/* 20140712 分隔線 ---------------------------------------**/
+
+/* 20140712 分隔線 ---------------------------------------**/
+
+
+.basicInfoCaption
+{
+    text-align:center;
+    margin-top:-10px;
+}
+
+
+.basicInfoWrapper div .glyphicon
+{
+    color:#F9FFDB;
+    font-size:24px;
+    margin-right:10px;
+}
+
+.basicInfoWrapper div b
+{
+    color:#e7e7e7;
+}
+
+.basicInfoWrapper div:hover ,.basicInfoWrapper div:hover b
+{
+    color:#E6697D;
+}
+
+
+.basicInfoWrapper div
+{   
+    margin-bottom:5px;
+}
+
+.clearfix
+{
+    clear:both;
+}
+
+.basicInfoWrapper
+{
+    font-family: CustomFont, "微軟正黑體", "蘋果儷黑體", "新細明體", Arial;
+    text-align:initial;
+    font-size:15px;
+    color:#FFF;
+}
+
+.iconSize
+{
+    
+}
+
+
+
+
+/*--------------- 跟時程表有關的css*/
+
+
+
+.fontBlue{    color: #4279B6;}
+.fontOrange{   color: #DB894E;}
+.fontGreen{    color: #2c923b;}
+
+
+header
+{
+    min-height:300px;
+}
+
+.popover-content {
+padding: 9px 7px;
+}
+
+.main-container
+{
+    max-width:1024px;
+}
+
+
+.margin10{    margin:10px;}
+.margin20{    margin:20px;}
+.margin30{    margin:30px;}
+.margin40{    margin:40px;}
+
+
+
+
+
+
+
+.hrStyle
+{
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+
+.sectionCaption
+{
+    margin-top: -18px;
+    text-align:center;
+    font-weight:700;
+    font-size:24px;
+    color:#E6697D;
+}
+
+.captionEnglish
+{
+    margin-top: 3px;
+    font-size:16px;
+    color:#908687;
+}
+
+
+
+.schaduleYearWrapper
+{
+   
+    position:absolute;
+    top:100px;
+}
+
+.schaduleYearLeft
+{
+    color: #60AA0F;
+    text-shadow: 1px 1px #FFF799;
+    background: #EDFDFF;
+    border-radius: 50%;
+    
+    border: solid 2px #3F78CC;
+    width: 64px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 13%;
+    padding-top: 25%;
+
+
+    -webkit-animation-duration:.5s;
+    animation-duration:.5s;
+
+    -webkit-animation-name: rotateYear;    
+    animation-name: rotateYear;    
+       
+
+}
+
+
+
+
+
+
+
+
+
+.schaduleWrapper
+{
+    max-width:1024px;
+    margin:0 auto;
+}
+
+.systemTitle
+{
+    color:#808080;
+}
+
+.overflowDiv
+{
+    overflow:hidden;    
+    height:80px;
+
+    -webkit-animation: overFlowRemove 5.0s forwards;
+    animation: overFlowRemove 5.0s forwards;
+}
+
+
+.schaduleRow
+{
+    height:4px;
+    background:rgba(64, 153, 187, 0.5);
+    width:100%;
+    -webkit-animation: widthInrease 5.0s;
+    animation : widthInrease 5.0s;
+}
+
+
+.arrowLine
+{
+   width:4px;
+   background:rgba(64, 153, 187, 0.5);
+   height:80px;
+}
+
+.arrowLineBottom
+{
+    width:4px;
+    background:rgba(64, 153, 187, 0.5);
+    height:0px;
+
+      -webkit-animation-duration:2.0s;
+    animation-duration:2.0s;
+
+    -webkit-animation-name: increaseHeightAnamate;    
+    animation-name: increaseHeightAnamate;    
+
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+
+
+
+.delayShowBlock
+{
+    font-size:15px;
+    opacity: 0;
+    margin-left: -25%;
+
+     -webkit-animation-duration:1.0s;
+    animation-duration:1.0s;
+
+    -webkit-animation-name: delayShow;    
+    animation-name: delayShow;    
+
+
+    -webkit-animation-timing-function:ease;
+    animation-timing-function:ease;
+
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+
+
+.HideAnimationBlock
+{    
+    height:80px;
+
+    -webkit-animation-duration:2.0s;
+    animation-duration:2.0s;
+
+    -webkit-animation-name: decreaseHeightAnamate;    
+    animation-name: decreaseHeightAnamate;    
+
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+
+
+.animateDelay02{     -webkit-animation-delay: 0.2s ;    animation-delay:0.2s;   }
+.animateDelay04{     -webkit-animation-delay: 0.4s ;    animation-delay:0.4s;   }
+.animateDelay06{     -webkit-animation-delay: 0.6s ;    animation-delay:0.6s;   }
+.animateDelay08{     -webkit-animation-delay: 0.8s ;    animation-delay:0.8s;   }
+.animateDelay10{     -webkit-animation-delay: 1.0s ;    animation-delay:1.0s;   }
+
+
+
+.animateDelay12{     -webkit-animation-delay: 1.2s ;    animation-delay:1.2s;   }
+.animateDelay14{     -webkit-animation-delay: 1.4s ;    animation-delay:1.4s;   }
+.animateDelay16{     -webkit-animation-delay: 1.6s ;    animation-delay:1.6s;   }
+.animateDelay18{     -webkit-animation-delay: 1.8s ;    animation-delay:1.8s;   }
+.animateDelay20{     -webkit-animation-delay: 2.0s ;    animation-delay:2.0s;   }
+
+.animateDelay22{     -webkit-animation-delay: 2.2s ;    animation-delay:2.2s;   }
+.animateDelay24{     -webkit-animation-delay: 2.4s ;    animation-delay:2.4s;   }
+.animateDelay26{     -webkit-animation-delay: 2.6s ;    animation-delay:2.6s;   }
+.animateDelay28{     -webkit-animation-delay: 2.8s ;    animation-delay:2.8s;   }
+.animateDelay30{     -webkit-animation-delay: 3.0s ;    animation-delay:3.0s;   }
+
+
+.animateDelay32{     -webkit-animation-delay: 3.2s ;    animation-delay:3.2s;   }
+.animateDelay34{     -webkit-animation-delay: 3.4s ;    animation-delay:3.4s;   }
+.animateDelay36{     -webkit-animation-delay: 3.6s ;    animation-delay:3.6s;   }
+.animateDelay38{     -webkit-animation-delay: 3.8s ;    animation-delay:3.8s;   }
+.animateDelay40{     -webkit-animation-delay: 4.0s ;    animation-delay:4.0s;   }
+
+
+.animateDelay42{     -webkit-animation-delay: 4.2s ;    animation-delay:4.2s;   }
+.animateDelay44{     -webkit-animation-delay: 4.4s ;    animation-delay:4.4s;   }
+.animateDelay46{     -webkit-animation-delay: 4.6s ;    animation-delay:4.6s;   }
+.animateDelay48{     -webkit-animation-delay: 4.8s ;    animation-delay:4.8s;   }
+.animateDelay50{     -webkit-animation-delay: 5.0s ;    animation-delay:5.0s;   }
+
+
+.animateDelay52{     -webkit-animation-delay: 5.2s ;    animation-delay:5.2s;   }
+.animateDelay54{     -webkit-animation-delay: 5.4s ;    animation-delay:5.4s;   }
+.animateDelay56{     -webkit-animation-delay: 5.6s ;    animation-delay:5.6s;   }
+.animateDelay58{     -webkit-animation-delay: 5.8s ;    animation-delay:5.8s;   }
+.animateDelay60{     -webkit-animation-delay: 6.0s ;    animation-delay:6.0s;   }
+
+
+
+@-webkit-keyframes widthInrease {
+    0% { width: 0%; } 
+    100% { width: 100%; }
+}
+@-moz-keyframes widthInrease {
+   0% { width: 0%; } 
+  100% { width: 100%; }
+}
+@keyframes widthInrease {
+     0% { width: 0%; } 
+  100% { width: 100%; }
+}
+
+
+@-webkit-keyframes decreaseHeightAnamate {
+  0%   { height: 80px; } 
+  100% { height:0px; }
+}
+@-moz-keyframes decreaseHeightAnamate {
+  0%   { height: 80px; } 
+  100% { height:0px; }
+}
+@keyframes decreaseHeightAnamate {
+  0%   { height: 80px; } 
+  100% { height:0px; }
+}
+
+
+
+@-webkit-keyframes increaseHeightAnamate {
+  0%   { height: 0px; } 
+  100% { height:80px; }
+}
+@-moz-keyframes increaseHeightAnamate {
+  0%   { height: 0px; } 
+  100% { height:80px; }
+}
+@keyframes increaseHeightAnamate {
+  0%   { height: 0px; } 
+  100% { height:80px; }
+}
+
+
+@-webkit-keyframes delayShow {
+  0%   {  opacity: 0; } 
+  100% {   opacity: 1; }
+}
+@-moz-keyframes delayShow {
+  0%   {  opacity: 0; } 
+  100% {   opacity: 1; }
+}
+@keyframes delayShow {
+  0%   {  opacity: 0; } 
+  100% {   opacity: 1; }
+}
+
+
+
+@-webkit-keyframes rotateYear {
+  0%   {  
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg) 
+  } 
+  100% {   
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)  }
+}
+@-moz-keyframes rotateYear {
+  0%   {  
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg) 
+  } 
+  100% {   
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)  }
+}
+@keyframes rotateYear {
+   0%   {  
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg) 
+  } 
+  100% {   
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg)  }
+}
+
+
+
+
+
+
+
