@@ -1,0 +1,24 @@
+﻿
+
+.textCenter
+{
+    text-align: center;
+}
+
+
+.blackLine
+{
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    height: 1px;
+}
+
+
+    .blackLine.margin
+    {
+        margin: 5px 0;
+    }
+
+
+

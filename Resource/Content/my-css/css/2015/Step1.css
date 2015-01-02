@@ -1,0 +1,126 @@
+﻿
+.headerBG
+{
+    width:100%;
+    background: -webkit-linear-gradient(45deg, #353535 0%, #413422 50%, #545983 100%);
+    background: linear-gradient(45deg,#353535 0%,#413422 50%,#545983 100%);
+    min-height:450px;
+    position:relative;
+    z-index:3;
+    overflow:hidden;
+}
+
+.embedBG
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:url(http://tympanus.net/codrops2014/img/collage.jpg);    
+    content: '';
+    opacity: 0.15;
+}
+
+.headerBG .textPanel
+{
+    margin-top:50px;
+    text-align:center;
+}
+
+.headerBG .textPanel .bigText
+{
+    font-size:36px;
+    color:#FFF;
+}
+
+.headerBG .textPanel  .middleText
+{
+    font-size:20px;
+    color:#ADD294;
+}
+
+
+.headerBG .avatorWrapper
+{
+    text-align:center;
+    margin-top:25px;
+}
+
+
+.headerBG .avatorWrapper .bigText
+{
+    font-size:24px;
+    color:#FFF;
+    
+}
+
+.headerBG .avatorWrapper .middleText
+{
+    font-size:18px;
+    color:#B8D1FF;
+}
+
+.headerBG .avatorWrapper .smallText
+{
+    font-size:16px;
+    position:relative;
+    color:#BABABA;
+}
+
+
+.avatorWrapper .smallText .floatText
+{
+    width:100%;
+    transition:.5s;
+    top:0px;
+    position:absolute;
+    opacity:0;
+    margin-top:50%;
+}
+
+
+.headerBG:hover .avatorWrapper .smallText .floatText
+{
+    margin-top:0%;
+    opacity:1;
+}
+
+
+
+
+.headerBG .avatorWrapper  .avatorLine
+{
+    width:50%;
+    margin: 0 auto;
+    /*padding:2px;*/
+    height:1px;
+    border-bottom:solid 1px #E8E8E8;
+}
+
+
+
+
+.headerBG .avatorWrapper  .avatorLine.hidden
+{
+    border-bottom:solid 1px #ffd800;
+    opacity:0;
+}
+
+
+
+.headerBG .avator:hover
+{
+    transform:rotate(360deg);
+    opacity:0.7;
+}
+
+.headerBG .avator
+{
+    
+    transition:.3s;
+    border: 3px double #424242;
+    padding: 1px;
+    border-radius:50%;
+    width:150px;
+}

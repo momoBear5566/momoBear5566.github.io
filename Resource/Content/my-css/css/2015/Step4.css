@@ -1,0 +1,262 @@
+﻿
+.timeLineBG
+{
+    padding-top:25px;
+    min-height:400px;
+    background:#FFF;
+}
+
+.timePanel
+{
+    position:relative;    
+    min-height:125px;
+    text-align:center;
+}
+
+.timePanel.lg
+{
+    min-height:150px;
+}
+
+.timeLine
+{
+    position:absolute;
+    margin-left:70px;
+    width:1px;
+    background:#000;
+    height:100%;
+}
+
+
+.timeLineBG .yearWrapper
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.timeLineBG .col-md-5
+{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+
+.timeLineBG .year
+{
+    font-size:16px;
+    color:#666;
+    background: #fff;
+    z-index: 6;
+    position: relative;
+}
+
+.timeLineBG .yearBall
+{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:#879CDB;
+    color:#FFF;
+    border-radius:50%;
+    position: relative;
+    z-index: 5;
+    box-shadow: inset 0 0 0 4px rgba(255,255,255,.6),0 1px 2px rgba(0,0,0,.1);
+}
+
+.timeLineBG .eachProjectRow:nth-child(2n+1) .yearBall
+{
+    /*background:#4E862D;*/
+      background:#74BAC0;
+    
+}
+
+.projectPanle
+{
+    border-radius:5px;
+    /*border:solid 1px #E8E8E8;*/
+    padding:10px;
+    min-height:125px;
+    overflow: hidden;
+    position:relative;
+}
+
+    .projectPanle img.project
+    {
+        width:32px;
+        height:32px;
+        border-radius: 50%;
+    }
+
+    .projectPanle .bigText
+    {
+        /*font-weight:700;*/
+        font-size:28px;
+        padding-bottom:10px;
+        color:#333;
+        text-shadow:1px 1px 1px #FFF;
+        margin-bottom:10px;
+        border-bottom:solid 1px #E8e8E8;
+    }
+
+    
+    
+
+.eachProjectRow:hover .projectPanle .bigText
+{
+    color:#D33E3E;
+}
+
+.eachProjectRow:hover .projectPanle .smallText
+{
+    color:#43B025;
+}
+
+    .projectPanle .smallText
+    {
+        font-size:15px;
+        color:#888;
+    }
+
+
+.eachProjectRow:hover .ball
+{
+    transform:rotate(720deg);
+}
+
+
+
+
+.skillsWrapper
+{
+     position:absolute;
+     top:5px;
+     right:0px;
+     margin-right:-50%;
+     transition:.3s;
+     transition-delay:.5s;
+}
+
+.eachProjectRow:hover .skillsWrapper
+{
+      margin-right:-0%;
+}
+
+.eachProjectRow:hover .year
+{
+    /*color:#EF5252;*/
+}
+
+.ball
+{
+    transition:.7s;    
+    transition-delay:.5s;
+
+    overflow: hidden;   
+    margin:0px;
+
+    display:inline-block;
+    background:#6F6F6F;
+    border-radius:50%;
+
+    text-align: center;
+   vertical-align: middle;
+    text-shadow: 1px 1px 1px #666;
+    font-size: 14px;
+
+    line-height: 36px;
+    width:36px;
+    height:36px;
+    color:#FFF;
+}
+
+
+
+
+
+
+
+ /*箭頭專用*/
+.arrow-left-wrapper
+{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+
+.arrow-left, .arrow-left-border
+{
+    border-color: transparent transparent;
+    border-style: solid;
+    border-width: 11px;
+    border-right: solid 11px #FFF;
+    position: absolute;
+    top: 23px;
+    z-index: 1002;
+}
+
+
+.arrow-left-border
+{
+    border-color: transparent transparent;
+    border-right: solid 12px #E7E7E7;
+    border-width: 12px;
+    top: 22px;
+    z-index: 1001;
+    left: -3px;
+}
+
+
+
+/*箭頭右邊*/
+.arrow-right-wrapper
+{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+
+.arrow-right, .arrow-right-border
+{
+    border-color: transparent transparent;
+    border-style: solid;
+    border-width: 11px;
+    border-left: solid 11px #FFF;
+    position: absolute;
+    top: 23px;
+    z-index: 1002;
+}
+
+
+.arrow-right-border
+{
+    border-color: transparent transparent;
+    border-left: solid 12px #E7E7E7;
+    border-width: 12px;
+    top: 22px;
+    z-index: 1001;
+    left: -3px;
+}
+
+
+
+
+.projectCaptionRow
+{
+    text-align:center;
+    padding-bottom:15px;
+    border-bottom:solid 1px #E8E8E8;
+    margin-bottom:35px;
+}
+
+    .projectCaptionRow .bigText
+    {
+        font-size:32px;
+
+    }
+
+
+    .projectCaptionRow .smallText
+    {
+        font-size:16px;
+        color:#999;
+    }

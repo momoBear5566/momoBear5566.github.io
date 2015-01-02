@@ -1,0 +1,13 @@
+﻿
+
+.container
+{    
+    max-width:1024px;
+    margin: 0 auto;
+}
+
+
+body
+{
+      font-family: CustomFont, "微軟正黑體", "蘋果儷黑體", "新細明體", Arial;
+}

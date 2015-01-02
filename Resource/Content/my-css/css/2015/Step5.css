@@ -1,0 +1,20 @@
+﻿
+.lastBG
+{
+    text-align:center;
+    padding: 20px 0 35px 0;
+    background:#E8E8E8;
+}
+
+.lastBG .bigText
+{
+    font-size:28px;
+    text-shadow:1px 1px 1px #FFF;    
+}
+
+
+.lastBG .smallText
+{
+      font-size:16px;
+      color:#7e7e7e;
+}

@@ -1,0 +1,21 @@
+﻿.aboutBG
+{
+    background:#E8E8E8;
+    min-height:150px;
+    padding-top:20px;
+}
+
+.aboutBG .lookingFor
+{
+    font-size: 32px;
+    /* font-weight: 700; */
+    text-shadow: 1px 1px 1px #FFF;
+    text-align: center;
+}
+
+.aboutBG .smallText
+{
+    text-align: center;
+    font-size:20px;
+    color:#8C8C8C;
+}

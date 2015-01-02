@@ -1,0 +1,174 @@
+﻿
+.skillsBG
+{
+    background: #2C2C2C;
+    border-bottom: solid 2px #CCC;
+    min-height: 450px;
+    padding-bottom: 100px;
+}
+
+
+
+    .skillsBG .bigTitle
+    {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 28px;
+        color: #FFEA7E;
+    }
+
+    .skillsBG .middleTitle
+    {
+        text-align: center;
+        font-size: 18px;
+        color: #FFAA6C;
+    }
+
+
+
+
+.skillCardPanel
+{
+    margin-top: 15px;
+}
+
+
+.skillCardWrapper img
+{
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+
+.skillCardWrapper:hover img
+{
+    opacity: .2;
+}
+
+
+
+
+.skillCardWrapper
+{
+    position: relative;
+    z-index: 1;
+    height: 350px;
+    background: #181818;
+    overflow: hidden;
+    border-bottom: solid 5px #000;
+}
+
+
+    .skillCardWrapper .maskPanel
+    {
+        text-align: center;
+        z-index: 3;
+        height: 150px;
+        width: 100%;
+        position: absolute;
+    }
+
+
+    .skillCardWrapper:hover .maskPanel .topPanel
+    {
+        height: 0%;
+    }
+
+
+        .skillCardWrapper:hover .maskPanel .topPanel .bigText,
+        .skillCardWrapper:hover .maskPanel .topPanel .smallText
+        {
+            opacity: 0;
+        }
+
+
+
+    .skillCardWrapper:hover .maskPanel .bottomPanel
+    {
+        border-bottom:solid 3px #c42828;
+        transform: rotate(-0deg);
+    }
+
+    .skillCardWrapper .maskPanel .topPanel
+    {
+        transition: .5s;
+        z-index: 7;
+        height: 70%;
+        background: #E8E8E8;
+        position: relative;
+        padding-top: 10px;
+    }
+
+
+
+    .skillCardWrapper .maskPanel .bottomPanel
+    {
+        transition: .2s;
+        transition-delay: .3s;
+        position: relative;
+        z-index: 5;
+        margin-top: -30px;
+        height: 30%;
+        width: 200%;
+        transform: rotate(-10deg);
+        border-bottom: solid 4px #FFFFFF;
+        margin-left: -25%;
+        background: #E8E8E8;
+    }
+
+
+
+
+    .skillCardWrapper .maskPanelOfrotate
+    {
+    }
+
+    .skillCardWrapper .topPanel .bigText
+    {
+        font-size: 22px;
+        text-shadow: 1px 1px 1px #FFF;
+        transition: .4s;
+    }
+
+    .skillCardWrapper .topPanel .smallText
+    {
+        font-size: 16px;
+        text-shadow: 1px 1px 1px #FFF;
+        transition: .4s;
+    }
+
+
+.skillCardPanel .col-md-3:nth-child(even) .skillCardWrapper .topPanel .bigText
+{
+    color: #1f65ba;
+}
+
+
+.skillCardPanel .col-md-3:nth-child(even) .skillCardWrapper
+{
+    margin-top: 25px;
+}
+
+.skillCardWrapper:hover .zoomInPanel
+{
+    transform:scale(1);
+    opacity:1;
+}
+
+.zoomInPanel
+{
+    transform:scale(0);
+    opacity:0;
+    transition:.2s;
+    transition-delay:.3s;
+
+
+    position:absolute;
+    color:#FFF;
+    background:transparent;
+    text-align:center;
+    font-size:22px;
+    width:100%;
+    top:100px;
+}
